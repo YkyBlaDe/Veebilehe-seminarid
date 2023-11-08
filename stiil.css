@@ -1,0 +1,48 @@
+body {
+    background-image: url("background.jpg");
+    background-color: green;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 24px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+#loodusvaade {
+    border: 30px solid red;
+    box-shadow: 5px 5px 5px #888888;
+
+}
+
+table {
+    border: 5px solid blue;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#lehekulg {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#vasak_pool,
+#parem_pool {
+    flex: 1;
+    padding: 10px;
+}
